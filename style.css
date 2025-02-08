@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+}
+
+header {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center; /* Centra tutto */
+    align-items: center;
+    gap: 650px; /* Distanza tra il nome e i social */
+}
+
+.logo {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: #000000;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; /* Centra le immagini */
+    gap: 15px; /* Spazio tra le immagini */
+    padding: 50px 0; /* Spazio sopra e sotto */
+}
+
+.gallery img {
+    width: 32%; /* Ogni immagine occupa il 30% dello spazio disponibile */
+    height: 350px; /* Imposta un'altezza fissa */
+    object-fit: cover;
+    border-radius: 10px; /* Opzionale, angoli arrotondati */
+}
+/* Personalizzazione per ogni immagine */
+.img1 {
+    object-fit: cover;
+    object-position: 50% 25%; /* Mostra la parte superiore */
+}
+
+.img2 {
+    object-fit: cover;
+    object-position: 50% 60%; /* Mostra la parte centrale, spostata leggermente verso l'alto */
+}
+
+.img3 {
+    object-fit: cover;
+    object-position: 50% 25%; /* Mostra la parte inferiore */
+}

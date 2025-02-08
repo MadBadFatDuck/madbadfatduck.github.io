@@ -1,0 +1,5 @@
+*.pdf
+*.hprof
+*.lock
+.idea
+.DS_Store
