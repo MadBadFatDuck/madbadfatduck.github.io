@@ -79,6 +79,7 @@ nav a {
 
 @media (max-width: 768px) {
     header {
+        position: relative;
         flex-direction: column; /* Dispone il nome sopra e i social sotto */
         gap: 10px; /* Riduce il grande spazio tra gli elementi */
         align-items: center; /* Centra tutto */
